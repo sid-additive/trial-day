@@ -1,0 +1,15 @@
+.subscriber-list {
+  padding: 0;
+  list-style: none;
+
+  li {
+    background: #fff;
+    padding: 8px;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+    + li {
+      margin-top: 8px;
+    }
+  }
+}

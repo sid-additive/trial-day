@@ -1,0 +1,12 @@
+<ul class="subscriber-list">
+  {{#each this.subscribers as |subscriber|}}
+    <li>
+      <div>
+        {{subscriber.firstName}} {{subscriber.lastName}}
+      </div>
+      <div>
+        {{subscriber.email}}
+      </div>
+    </li>
+  {{/each}}
+</ul>
