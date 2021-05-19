@@ -1,5 +1,13 @@
 {
   "subscriberList": {
-    "title": "Subscriber list"
+    "title": "Subscriber list",
+    "gender": {
+      "f": "Female",
+      "m": "Male"
+    },
+    "state": {
+      "subscribed": "Subscribed",
+      "unsubscribed": "Unsubscribed"
+    }
   }
 }

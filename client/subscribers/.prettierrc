@@ -7,14 +7,5 @@
   "singleQuote": true,
   "tabWidth": 2,
   "trailingComma": "none",
-  "useTabs": false,
-  "overrides": [
-    {
-      "files": "*.hbs",
-      "options": {
-        "parser": "glimmer",
-        "singleQuote": false
-      }
-    }
-  ]
+  "useTabs": false
 }

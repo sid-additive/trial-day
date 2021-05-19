@@ -1,4 +1,37 @@
-.content-wrapper {
-  margin: 0 auto;
-  max-width: 600px;
+.subscriber-list {
+  padding: 0;
+  list-style: none;
+
+  .subscriber {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 48px;
+    padding: 8px 16px;
+    box-sizing: border-box;
+
+    &:hover {
+      background: rgba(0, 0, 0, 3%);
+    }
+
+    .subscriber-data {
+      display: flex;
+
+      .name {
+        width: 240px;
+      }
+
+      .gender {
+        width: 160px;
+      }
+
+      .email {
+        width: 280px;
+      }
+
+      .state {
+        width: 240px;
+      }
+    }
+  }
 }

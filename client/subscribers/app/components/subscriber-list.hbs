@@ -1,12 +1,24 @@
 <ul class="subscriber-list">
   {{#each this.subscribers as |subscriber|}}
-    <li>
-      <div>
-        {{subscriber.firstName}} {{subscriber.lastName}}
+    <li class="subscriber">
+      <div class="subscriber-data">
+        <div class="name">
+          {{subscriber.firstName}} {{subscriber.lastName}}
+        </div>
+        <div class="gender">
+          {{t (concat "subscriberList.gender." subscriber.gender)}}
+        </div>
+        <div class="email">
+          {{subscriber.email}}
+        </div>
+        <div class="state">
+          {{t (concat "subscriberList.state." subscriber.state)}}
+        </div>
       </div>
-      <div>
-        {{subscriber.email}}
-      </div>
+
+      <button>
+
+      </button>
     </li>
   {{/each}}
 </ul>
