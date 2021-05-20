@@ -5,10 +5,28 @@ are presented as [Codepens](https://codepen.io/). In order to complete the chall
 [fork](https://blog.codepen.io/documentation/forks/) the respective codepen, insert your code, save it, and paste
 the link into the given spaces. In the end you can commit and push the changes to your Github repository.
 
-### Task 1
+### Awesome List
 
-Description
+In this task you have to transform a list into a responsive layout. You are only allowed to change the CSS.
 
-[Codepen](link)
+[Codepen](https://codepen.io/readonlyadditive/pen/vYxgyGz)
+
+`Insert your completed codepen here.`
+
+### Form Validation
+
+In this task you have to style some input field depending on whether they are valid or not. You are only allowed to change
+the CSS.
+
+[Codepen](https://codepen.io/readonlyadditive/pen/qBrRqXo)
+
+`Insert your completed codepen here.`
+
+### Hover List
+
+In this task you have to fix the styles of list items when you hover them. You are only allowed to change
+the CSS.
+
+[Codepen](https://codepen.io/readonlyadditive/pen/BaWpQqy)
 
 `Insert your completed codepen here.`
