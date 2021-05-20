@@ -17,7 +17,12 @@ module.exports = function (environment) {
       }
     },
 
-    APP: {}
+    APP: {
+      apiBaseHost: 'https://subscribers.additive-apps.tech'
+    },
+    'ember-cli-mirage': {
+      enabled: true
+    }
   };
 
   if (environment === 'development') {

@@ -1,4 +1,5 @@
 import Component from '@glimmer/component';
+import { action } from '@ember/object';
 import { tracked } from '@glimmer/tracking';
 
 export default class SubscriberListComponent extends Component {
@@ -8,35 +9,48 @@ export default class SubscriberListComponent extends Component {
   constructor() {
     super(...arguments);
 
+    // TODO: subscribers should be fetched from the API
     this.subscribers = [
       {
         firstName: 'John',
         lastName: 'Doe',
         gender: 'm',
         email: 'john.doe@mail.com',
-        state: 'subscribed'
+        subscribed: true
       },
       {
         firstName: 'Jane',
         lastName: 'Doe',
         gender: 'f',
         email: 'jane.doe@mail.com',
-        state: 'subscribed'
+        subscribed: true
       },
       {
         firstName: 'Mary',
         lastName: 'Rose',
         gender: 'f',
         email: 'mary.rose@mail.com',
-        state: 'unsubscribed'
+        subscribed: false
       },
       {
         firstName: 'Paul',
         lastName: 'Smith',
         gender: 'm',
         email: 'paul.smith@mail.com',
-        state: 'subscribed'
+        subscribed: true
       }
     ];
+  }
+
+  @action
+  handleAddButton() {
+    // TODO: handle click on button
+    console.log('clicked add button');
+  }
+
+  @action
+  handleShowActions() {
+    // TODO: handle click on button
+    console.log('clicked show actions');
   }
 }
