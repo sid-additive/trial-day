@@ -1,9 +1,23 @@
 # JavaScript Challenges
 
+The following tasks aim to assess you JavaScript knowledge. This tasks are again
+presented as [Codepens](https://codepen.io/). In order to complete the challenges you have to
+[fork](https://blog.codepen.io/documentation/forks/) the respective codepen, follow the instructions to complete the task,
+save it, and paste the link into the given spaces. In the end you can commit and push the changes to your Github repository.
+
 ### True length
 
 In this challenge you have to create a function which returns the number of true values there are in an array.
-Example: `countTrue([true, false, true, false]) --> 2`
+
+Examples:
+
+```js
+countTrue([true, false, true, false])
+-> 2
+
+countTrue([false])
+-> 0
+```
 
 [Codepen](https://codepen.io/readonlyadditive/pen/gOmgLQY?editors=1112)
 
@@ -11,7 +25,7 @@ Example: `countTrue([true, false, true, false]) --> 2`
 
 ### jQuery Hell
 
-In this challenge you have refactor code by replacing jQuery with vanilla JavaScript.
+In this challenge you have refactor code by replacing jQuery with vanilla JavaScript and possibly some CSS.
 
 [Codepen](https://codepen.io/readonlyadditive/pen/wvJgoNK)
 
@@ -24,8 +38,11 @@ contains a property `priceInCent`. Your task is to add a property `priceInEuro`,
 (e.g. 15,00 €) price in euro, to each of the objects.
 
 Example:
-`appendFormattedPrice([{title: 'Offer 1', priceInCent: 15000}, {title: 'Offer 2', priceInCent: 17050}])` -->
-`[{title: 'Offer 1', priceInCent: 15000, priceInEuro: '150.00 €'}, {title: 'Offer 2', priceInCent: 17050, priceInEuro: '170.50 €'}]`
+
+```js
+appendFormattedPrice([{title: 'Offer 1', priceInCent: 15000}, {title: 'Offer 2', priceInCent: 17050}])
+-> [{title: 'Offer 1', priceInCent: 15000, priceInEuro: '150.00 €'}, {title: 'Offer 2', priceInCent: 17050, priceInEuro: '170.50 €'}]
+```
 
 [Codepen](https://codepen.io/readonlyadditive/pen/OJpWWPM?editors=0011)
 
