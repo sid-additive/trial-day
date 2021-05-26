@@ -12,5 +12,4 @@ Make sure to read through all the challenges at the beginning and split your tim
 - [01 CSS](doc/css.md)
 - [02 JavaScript](doc/js.md)
 - [03 Bugs in React](doc/react.md)
-- [04 TODO](doc/todo.md)
-- [05 Subscribers Application](doc/ember.md)
+- [04 Subscribers Application](doc/ember.md)
