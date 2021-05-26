@@ -48,5 +48,5 @@ The data retrieved from the Mirage endpoints is only stored for the current sess
 
 A part of the app has already been implemented. The list shows a hardcoded set of subscribers. The connection to the Mirage API has not been implemented yet. You can choose on your own how to fetch the data from the Mirage API. EmberJS provides the tool [Ember Data](https://guides.emberjs.com/release/models/) (already installed through npm) which may be useful.
 
-Next the form to add and edit a subscriber is missing. This form needs to be implemented on your own.
+Next the form to add and edit a subscriber is missing. This form needs to be implemented on your own. The input fields should be validated and API errors should be handled accordingly.
 Further the edit and delete actions on the list entries are missing and need to be added.
