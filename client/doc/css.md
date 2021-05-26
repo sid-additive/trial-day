@@ -18,7 +18,7 @@ In this task you have to transform a list into a responsive layout. You are only
 In this task you have to implement a Navbar layout using a screenshot as a reference. You are only allowed to change
 the CSS.
 
-[Codepen](https://codepen.io/readonlyadditive/pen/vYxgyGz)
+[Codepen](https://codepen.io/readonlyadditive/pen/BaWZBmO)
 
 `Insert your completed codepen here.`
 
