@@ -2,7 +2,7 @@
 
 # Trial Day at ADDITIVE as Frontend Developer
 
-The trial day consists of 5 challenges, the first 4 tasks are designed to test specific skills, while the
+The trial day consists of 4 challenges, the first 3 tasks are designed to test specific skills, while the
 last task aims to assess how you put these skills together to develop a small application by yourself.
 
 Make sure to read through all the challenges at the beginning and split your time accordingly.
