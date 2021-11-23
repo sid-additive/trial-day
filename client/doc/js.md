@@ -39,6 +39,7 @@ In this challenge you have refactor code by replacing jQuery with vanilla JavaSc
 
 [Codepen](https://codepen.io/readonlyadditive/pen/wvJgoNK)
 
+```
 const form = document.getElementById('newItemForm');
 form.onsubmit = function(event) {
   event.preventDefault();
@@ -71,6 +72,7 @@ let ul = document.getElementById("list");
  });   
   }
 }
+```
 
 ### Price in Euro
 
