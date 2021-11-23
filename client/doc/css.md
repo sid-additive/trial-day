@@ -134,9 +134,6 @@ the CSS.
 [Codepen](https://codepen.io/readonlyadditive/pen/BaWpQqy)
 
 ```
-* {
- box-sizing: border-box;
-}
 .container { 
 	display: flex;
 }
@@ -155,7 +152,7 @@ the CSS.
 .user-item:hover {
   background-color: #efefd7;
   border: 2px solid #a7a784;
-  border-button: solid transparent;
+  margin: -4px 0px;
 }
 
 .user-item + .user-item {
