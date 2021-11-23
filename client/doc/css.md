@@ -11,7 +11,31 @@ In this task you have to transform a list into a responsive layout. You are only
 
 [Codepen](https://codepen.io/readonlyadditive/pen/vYxgyGz)
 
-`Insert your completed codepen here.`
+```
+.navbar {
+  border-style: solid;
+  margin: 0px 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.item {
+  padding: 10px;
+  margin-left: 10px;
+}
+
+.start {
+  background-color: red;
+}
+
+.products {
+  background-color: green;
+}
+
+.about {
+  background-color: blue;
+}
+```
 
 ### Navbar Layout
 
