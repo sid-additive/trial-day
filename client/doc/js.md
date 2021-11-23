@@ -21,7 +21,17 @@ countTrue([false])
 
 [Codepen](https://codepen.io/readonlyadditive/pen/gOmgLQY?editors=1112)
 
-`Insert your completed codepen here.`
+```
+function countTrue(array) {
+  var count= 0;
+  for (let i = 0; i < array.length; i++) {
+  if(array[i] == true){
+    count++;
+  }
+}
+  return count;
+}
+```
 
 ### jQuery Hell
 
