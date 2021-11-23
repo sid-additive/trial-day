@@ -55,7 +55,14 @@ the CSS.
 
 [Codepen](https://codepen.io/readonlyadditive/pen/qBrRqXo)
 
-`Insert your completed codepen here.`
+'''
+input:valid {
+  border-color: green;
+}
+input:invalid {
+  border-color: red;
+}
+'''
 
 ### Hover List
 
