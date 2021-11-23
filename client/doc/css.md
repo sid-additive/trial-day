@@ -11,6 +11,17 @@ In this task you have to transform a list into a responsive layout. You are only
 
 [Codepen](https://codepen.io/readonlyadditive/pen/vYxgyGz)
 
+`Insert your completed codepen here.`
+
+
+### Navbar Layout
+
+In this task you have to implement a Navbar layout using a screenshot as a reference. You are only allowed to change
+the CSS.
+
+[Codepen](https://codepen.io/readonlyadditive/pen/BaWZBmO)
+
+
 ```
 .navbar {
   border-style: solid;
@@ -26,7 +37,7 @@ In this task you have to transform a list into a responsive layout. You are only
 
 .start {
   background-color: red;
-}
+}nav
 
 .products {
   background-color: green;
@@ -36,15 +47,6 @@ In this task you have to transform a list into a responsive layout. You are only
   background-color: blue;
 }
 ```
-
-### Navbar Layout
-
-In this task you have to implement a Navbar layout using a screenshot as a reference. You are only allowed to change
-the CSS.
-
-[Codepen](https://codepen.io/readonlyadditive/pen/BaWZBmO)
-
-`Insert your completed codepen here.`
 
 ### Form Validation
 
