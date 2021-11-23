@@ -11,8 +11,69 @@ In this task you have to transform a list into a responsive layout. You are only
 
 [Codepen](https://codepen.io/readonlyadditive/pen/vYxgyGz)
 
-`Insert your completed codepen here.`
+```
+body {
+  font-family: Helvetica;
+  max-width: 600px;
+  margin: 0 auto;
+}
 
+.description {
+  font-size: 20px;
+  line-height: 1.4em;
+  margin-bottom: 48px;
+}
+
+.description ul {
+  margin-top: 16px;
+  padding-left: 20px;
+}
+
+.items {
+  position: relative;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 8px;
+}
+
+.items .item {
+  width: 100%;
+  height: 120px;
+  padding: 16px;
+  font-size: 24px;
+  background: #f2f2f2;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+.items .item-2 {
+  top: 128px;
+}
+
+.items .item-3 {
+  top: 256px;
+}
+
+.items .item-4 {
+  top: 384px;
+}
+
+.items .item-5 {
+  top: 512px;
+}
+
+.items .item-6 {
+  top: 640px;
+}
+
+.items .item-7 {
+  top: 768px;
+}
+
+.items .item-8 {
+  top: 896px;
+}
+```
 
 ### Navbar Layout
 
