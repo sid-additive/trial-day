@@ -55,7 +55,7 @@ the CSS.
 
 [Codepen](https://codepen.io/readonlyadditive/pen/qBrRqXo)
 
-'''
+```
 input:valid {
   border-color: green;
 }
@@ -63,7 +63,7 @@ input:valid {
 input:invalid {
   border-color: red;
 }
-'''
+```
 
 ### Hover List
 
