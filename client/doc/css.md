@@ -133,4 +133,32 @@ the CSS.
 
 [Codepen](https://codepen.io/readonlyadditive/pen/BaWpQqy)
 
-`Insert your completed codepen here.`
+```
+* {
+ box-sizing: border-box;
+}
+.container { 
+	display: flex;
+}
+
+.user-list {
+  flex: 1;
+  margin: 1em;
+}
+
+.user-item {
+  background-color: #cbe9f5;
+  border-radius: 0.3em;
+  padding: 0.4em;
+}
+
+.user-item:hover {
+  background-color: #efefd7;
+  border: 2px solid #a7a784;
+  border-button: solid transparent;
+}
+
+.user-item + .user-item {
+  margin-top: 0.5em
+}
+```
