@@ -59,6 +59,7 @@ the CSS.
 input:valid {
   border-color: green;
 }
+
 input:invalid {
   border-color: red;
 }
