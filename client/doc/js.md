@@ -95,7 +95,15 @@ appendFormattedPrice([{title: 'Offer 1', priceInCent: 15000}, {title: 'Offer 2',
 
 [Codepen](https://codepen.io/readonlyadditive/pen/OJpWWPM?editors=0011)
 
-`Insert your completed codepen here.`
+```
+function appendFormattedPrice(array) {
+  var num = array[1].substr(13, array[1].length) / Math.pow(10, 2);
+  array.push("priceInEuro: "+num+" €");
+  for(var i = 0; i < array.length; i++){
+    console.log(array[i]);
+  }
+}
+```
 
 ### Date Validation
 
