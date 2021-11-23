@@ -72,6 +72,12 @@ let ul = document.getElementById("list");
  });   
   }
 }
+
+<ul id="list">
+    <!-- list items go here -->
+</ul>
+
+<input type="submit" id="button" value="Add Item" onclick="add()"/>
 ```
 
 ### Price in Euro
